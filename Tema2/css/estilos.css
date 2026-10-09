@@ -94,7 +94,7 @@ button:hover {
 
 .resultado-lista div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 12px;
     padding-bottom: 8px;
     border-bottom: 1px dashed #d5dbe1;
