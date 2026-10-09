@@ -40,9 +40,9 @@ form.addEventListener("submit", (event) => {
         descuento = subtotal * 0.10;
     }
 
-    let suplemento = 0;
+    let suplemento = 0
     if (dias > 3) {
-        suplemento = subtotal * 0.05;
+        suplemento = subtotal * 0.05
     }
 
     const total = subtotal - descuento + suplemento;
